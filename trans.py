@@ -7,7 +7,7 @@ from help import *
 tran = Translator()
 
 
-@sedthon.on(events.NewMessage(pattern=r"\.ترجمة الى العربية", outgoing=True))
+@sython.on(events.NewMessage(pattern=r"\.ترجمة الى العربية", outgoing=True))
 async def _(event):
     reply_message = await event.get_reply_message()
     mes = reply_message.text
