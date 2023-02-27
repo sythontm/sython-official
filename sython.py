@@ -19,7 +19,7 @@ from calcu import *
 from help import *
 from trans import *
 from config import *
-from points import *
+
 
 
 # -
