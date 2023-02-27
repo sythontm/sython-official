@@ -43,7 +43,7 @@ async def _(event):
                     bott = url.split('/')[-1]
                     await sython(ImportChatInviteRequest(bott))
                 msg2 = await sython.get_messages('@t06bot', limit=1)
-                await msg2[0].click(text='تحقق')
+                await msg2[0].click(text='التالي')
                 chs += 1
                 
             except:
