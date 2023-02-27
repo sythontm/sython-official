@@ -50,6 +50,14 @@ hijri_day = tran.translate(str(day), dest="ar")
 hijri = f"{Gregorian.today().to_hijri()} - {hijri_day.text}"
 LOGS = logging.getLogger(__name__)
 
+
+logging.basicConfig(
+    format="[%(levelname)s- %(asctime)s]- %(name)s- %(message)s",
+    level=logging.INFO,
+    datefmt="%H:%M:%S",
+)
+
+
 DEVS = [
     5159123009,
 ]
