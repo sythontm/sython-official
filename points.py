@@ -28,7 +28,6 @@ import base64
 import datetime
 from payment import *
 from help import *
-from checktele import *
 from telethon.tl.functions.messages import GetHistoryRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
 import requests
