@@ -628,5 +628,5 @@ async def _(event):
                 break
         await sython.send_message(event.chat_id, "تم الانتهاء من التجميع !")
 
-print("♦️ - sython Userbot Running - ♦️")
+print("♦️ sython is Running ♦️")
 sython.run_until_disconnected()
